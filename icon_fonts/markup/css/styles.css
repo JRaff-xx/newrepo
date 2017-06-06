@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+}
+/* General reset */
+img {
+	border-style: none;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+ul {
+	margin:0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+/* General reset */
+.page{
+	width: 960px;
+	margin: 100px auto 0;
+}
+.icon{
+	font-size: 	40px;
+	color: #000;
+}
+.car{
+	background: url(../images/car.svg) no-repeat;
+	display: block;	
+	width: 200px;
+	height: 200px;
+}
+
+
+@include aasdasdas{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+
+}
+
