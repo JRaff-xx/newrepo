@@ -1,0 +1,111 @@
+html, body {width:100%; height:100%;}
+body {
+	margin:0;
+	background:#fff;
+	padding:0;	
+	font:14px Geneva, Arial, Helvetica, sans-serif;
+}
+#page {
+	width:1000px;
+	margin:0 auto;
+	padding:20px 0;
+}
+h3 {margin:0 0 20px;}
+code {
+	display:block;
+	margin:20px;
+	color:#f00;
+	font-weight:bold;
+}
+h4 {
+	margin:0 0 10px;
+	font-size:16px;
+	font-weight:100;
+}
+pre {
+	font-weight:bold;
+}
+pre span {color:#093;}
+pre em {color:#600;}
+h1 {
+	margin:0;
+	font-size:18px;
+}
+
+.accordion {
+	padding:0;
+	margin:0 0 100px;
+	list-style:none;
+	width:200px;
+}
+.accordion li {
+	border:1px solid #000;
+}
+.accordion .opener {
+	display:block;
+	color:#000;
+	height:1%;
+	text-decoration:none;
+	line-height:30px;
+	padding:0 10px;
+	background:#999;
+}
+.accordion .ui-state-active {
+	background: #aaf;
+}
+.accordion p {
+	margin:0;
+	padding:10px;
+	background:#CCC;
+}
+
+/* sample2 styles */
+.sample2-holder {
+	border: 1px solid #ccc;
+	background: #eaeaea;
+	margin: 0 0 100px;
+	overflow: hidden;
+	width: 100%;
+}
+.sample2-holder .accordion-holder {
+	background: #fafafa;
+	width: 220px;
+	height: 500px;
+	float: left;
+}
+.sample2-holder .sample-text {
+	width: 740px;
+	padding: 15px;
+	float: right;
+}
+.sample2-holder .sample-text p {
+	margin: 10px 0;
+}
+
+.accordion2 {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width:220px;
+}
+.accordion2 li {
+	border-top: 1px solid #fff;
+	position: relative;
+	margin: -1px 0 0;
+}
+.accordion2 .opener {
+	display:block;
+	color:#000;
+	height:1%;
+	text-decoration:none;
+	line-height:30px;
+	padding:0 10px;
+	background:#999;
+}
+.accordion2 .ui-state-active {
+	background: #aaf;
+}
+.accordion2 p {
+	margin:0;
+	padding:10px;
+}
